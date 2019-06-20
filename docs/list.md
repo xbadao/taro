@@ -70,7 +70,7 @@ const listItems = numbers.map((number) => {
 数组元素中使用的 key 在其兄弟之间应该是独一无二的。然而，它们不需要是全局唯一的。当我们生成两个不同的数组时，我们可以使用相同的 key：
 
 ```jsx
-class App extends Componenet {
+class App extends Component {
   state = {
     posts: [
       {id: 1, title: 'Hello World', content: 'Welcome to learning Taro!'},
